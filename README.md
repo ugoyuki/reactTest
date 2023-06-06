@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# 問題
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+6/6 横並びなのに高さが揃わない問題は align-top で垂直方向の開始位置を合わせることで解決する
 
 ## Available Scripts
 
