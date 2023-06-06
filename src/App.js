@@ -9,7 +9,8 @@ export default function App() {
         <a href="#">ONLINE SHOP</a>
         <a href="#">JA</a>
       </header>
-      <div>
+      <div className="">
+        <section className="text-center">
         <p class="v-writing text-3xl mt-32 leading-loose tracking-widest">
           エル・アールのワッフルは
           <br />
@@ -32,6 +33,8 @@ export default function App() {
             </button>
           </div>
         </div>
+        </section>
+
         <section className="flex m-16">
           <div className="mr-8 w-1/2">
             <img src="https://placehold.jp/600x300.png" alt="ダミー画像" />
@@ -41,6 +44,15 @@ export default function App() {
             <p className=" text-left">
               しっとりふわふわに焼き上げたワッフル生地でフルーツやクリームをサンドしました。カラフルな見た目もかわいらしく、スイーツギフトや手土産におすすめです。
             </p>
+            <div className="mt-10 ">
+              <button className="rounded-3xl border px-10 py-3  text-lg align-top hover:bg-red-500 duration-300">
+                詳しく見る
+              </button>
+              <button className="rounded-3xl border px-3 py-3 ml-8 hover:bg-red-500 duration-300">
+                <img width="25" height="25" src="https://img.icons8.com/ios-filled/50/jquery.png" alt="jquery"/>
+              </button>
+            </div>
+            
           </div>
         </section>
       </div>
