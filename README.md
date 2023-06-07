@@ -1,10 +1,8 @@
 # 問題
 
 6/6 横並びなのに高さが揃わない問題は align-top で垂直方向の開始位置を合わせることで解決する
-
-## Available Scripts
-
-In the project directory, you can run:
+6/7 行間は lineSpacing で文章 1 行の高さは line-height で変えることができる。
+小要素を等間隔に分けるときは親に space-between を入れる。tailwind だと space-x-3 を使用する
 
 ### `npm start`
 
